@@ -1,0 +1,31 @@
+table{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	box-shadow: 1px 9px 12px 5px rgba(115,108,115,1);
+}
+table h3 {
+	padding: 10px;
+	color: white;
+	font-style: italic;
+}
+header{
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
+body .container {
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+	box-shadow: 1px 9px 12px 5px rgba(115,108,115,1);
+	padding: 0px 50px;
+}
+/*the page is responsive everything is centered no matter how u resize it*/
+button {
+	color: black;
+  font-weight: bold;
+  border: 1px solid #900;
+  cursor: pointer;
+  box-shadow: 1px 9px 12px 5px rgba(115,108,115,1);
+}

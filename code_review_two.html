@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Roll The Dice</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<!-- notice eelements ,identation and comments -->
+<body >
+	<div class="container">
+		<script type="text/javascript">
+			function background (){
+				// best practice naming variavles,declaring local variables.
+				// named function is used above
+				var Red= Math.floor((Math.random())*255);
+				var Green = Math.floor((Math.random())*255);
+				var Blue = Math.floor((Math.random())*255);
+				document.body.style.background = "rgb("+ Red+", "+ Green+ ", "+
+				Blue+")";
+				rgb(3,250,14)
+			}
+			background();
+		</script>
+		<div>
+			<header>
+				<h1>
+					<script>
+						playerNames();
+					</script>
+				</h1>
+			</header>
+			<table border=1>
+				<tr>
+					<td>
+						<h3 >
+							Player one <br> <br> <br>
+							<button onclick="random1()">Play <br></button>
+							<p id="random1"></p>
+						</h3>
+					</td>
+					<td>
+						<h3>
+							player two <br> <br> <br>
+							<button onclick="random2()">Play <br></button>
+							<p id="random2"></p>
+						</h3>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<footer>
+			<p>All rights reserved <br>
+				copyright &#169; Khafaga 2017</p>
+			</footer>
+		</div>
+	</body>
+	</html>
